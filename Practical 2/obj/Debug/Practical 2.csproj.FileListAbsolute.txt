@@ -1,0 +1,5 @@
+E:\DotNet\DotNetAssignments\LabPracticals\Practical 2\bin\Debug\Practical 2.exe.config
+E:\DotNet\DotNetAssignments\LabPracticals\Practical 2\bin\Debug\Practical 2.exe
+E:\DotNet\DotNetAssignments\LabPracticals\Practical 2\bin\Debug\Practical 2.pdb
+E:\DotNet\DotNetAssignments\LabPracticals\Practical 2\obj\Debug\Practical 2.exe
+E:\DotNet\DotNetAssignments\LabPracticals\Practical 2\obj\Debug\Practical 2.pdb

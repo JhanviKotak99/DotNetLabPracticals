@@ -1,0 +1,5 @@
+E:\DotNet\DotNetAssignments\LabPracticals\Practical 8\bin\Debug\Practical 8.exe.config
+E:\DotNet\DotNetAssignments\LabPracticals\Practical 8\bin\Debug\Practical 8.exe
+E:\DotNet\DotNetAssignments\LabPracticals\Practical 8\bin\Debug\Practical 8.pdb
+E:\DotNet\DotNetAssignments\LabPracticals\Practical 8\obj\Debug\Practical 8.exe
+E:\DotNet\DotNetAssignments\LabPracticals\Practical 8\obj\Debug\Practical 8.pdb
