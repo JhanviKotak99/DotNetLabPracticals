@@ -11,14 +11,28 @@ namespace Practical_10
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Request.QueryString.HasKeys())
+
+
+
+        }
+        protected void logIn(object sender, EventArgs e)
+        {
+
+            string username = TextBox1.Text;
+            string password = TextBox2.Text;
+            string queryString = "username=" + username + "&password=" + password;
+
+            if (username != "" && password != "")
             {
-                lblUsername.Text = Request.QueryString["username"];
+                Response.Redirect("WebForm2.aspx?" + queryString);
+
             }
             else
             {
-                lblUsername.Text = "Empty QueryString";
+                Response.Redirect("WebForm2.aspx");
+
             }
         }
+
     }
 }

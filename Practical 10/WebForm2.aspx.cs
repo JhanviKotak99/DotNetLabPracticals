@@ -11,13 +11,16 @@ namespace Practical_10
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Request.QueryString.HasKeys())
+            {
+                Label1.Text = Request.QueryString["username"];
+            }
+            else
+            {
+                Label1.Text = "Please enter valid string";
+            }
 
-        }
-
-        protected void btnLogin_Click(object sender, EventArgs e)
-        {
-            string queryString = "";//"username=" + txtUsername.Text + "&password=" + txtPassword.Text;
-            Response.Redirect("WebForm1.aspx?" + queryString);
         }
     }
+
 }

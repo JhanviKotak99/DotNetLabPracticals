@@ -9,9 +9,33 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            Welcome:
-            <asp:Label ID="lblUsername" runat="server"></asp:Label>
+            <table>
+                <tr>
+                    <td>
+                        <asp:Literal ID="Literal1" runat="server" Text="Username"></asp:Literal>
+
+                    </td>
+                    <td>
+                        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Literal ID="Literal2" runat="server" Text="Password"></asp:Literal>
+
+                    </td>
+                    <td>
+                        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                    </td>
+                    <td>
+                    <asp:Button ID="Button1" runat="server" Text="LOG IN" OnClick="logIn" />
+                    </td>
+                </tr>
+            </table>
+    
         </div>
+
     </form>
+
 </body>
 </html>
